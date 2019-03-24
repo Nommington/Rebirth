@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Different Kinds of Forms</title>
+</head>
+
+<body>
+
+    <h1>First, we have some forms for you to fill out.</h1>
+
+    <img src="https://i.imgur.com/cS8i5vC.gif" alt="Papers, please!" />
+
+    <p>It occurs to me that I may as well put some more HTML elements in here just so I can have the practice.</p>
+    <p>The forms below are just for my practice building the UI. They don't do anything. At least not currently. Raj
+        always used to make us type everything out in our group projects becaue it is better practice than copy and
+        pasting, which is what just about everyone does.</p>
+    <p>Perhaps in the future I will copy and paste these from here and hook them up to a backend of some sort, but as
+        for now I just want the practice building them. It's the weekend and I don't feel like starting a whole new
+        thing, so I'm just going to practice.</p>
+
+    <hr>
+
+    <h1>Anyway, the forms (please remember, they do NOTHING):</h1>
+    <h2>This Form does nothing.</h2>
+
+    <form action="#">
+        <p>This one's just a text field with max length 10:
+            <input type="text" name="whatever" size="30" maxlength="10" />
+            Even though the field is long enough for 30.
+        </p>
+    </form>
+
+    <form action="#">
+        <p>This one is for SECRET TYPING:
+            <input type="password" name="secret" size="20" maxlength="10" />
+        </p>
+    </form>
+
+    <form action="#">
+        <p>Those forms didn't really give you enough room to type, did they? Here's one with a big ol' text field for
+            ya:</p>
+        <textarea name="area" cols="20" rows="4">Go nuts...</textarea>
+        <p>"Go nuts..." will stay in the window so it'll need to be deleted whenever you fill it out. I can fix later
+            that with JavaScript.</p>
+    </form>
+
+    <form action="#">
+        <p>Please select one from the following:
+            <input type="radio" name="choice" value="this" checked="checked" />This
+            <input type="radio" name="choice" value="that" />That
+            <input type="radio" name="choice" value="theOther" />The Other
+        </p>
+    </form>
+
+    <form action="#">
+        <p>Select as many as you like of these options:
+            <input type="checkbox" name="option" value="thisOne" />This One
+            <input type="checkbox" name="option" value="thatOne" />That One
+            <input type="checkbox" name="option" value="theOtherOne" />The Other One
+        </p>
+    </form>
+
+    <form action="#">
+        <p>Here's a drop-down list!</p>
+        <select name="choices">
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+        </select>
+    </form>
+
+    <form action="#">
+        <p>This list isn't drop-down at all! And you can select more than one!</p>
+        <select name="choices2" size="3" multiple="multiple">
+            <option value="first">First Option</option>
+            <option value="second">Second Option</option>
+            <option value="third">Third Option</option>
+        </select>
+    </form>
+
+    <form action="#" method="POST">
+        <p>Here, upload a file... to NOWHERE!</p>
+        <input type="file" name="file" />
+        <input type="submit" value="Upload!" />
+    </form>
+
+    <hr>
+
+    <h2>Now I'm going to group all these different kinds of forms together!</h2>
+
+    <fieldset>
+        <legend>All The Forms Together!</legend>
+        <label>Text Field</label>
+        <input type="text" name="whatever" size="30" maxlength="10" />
+        <br>
+        <label>Password</label>
+        <input type="password" name="secret" size="20" maxlength="10" />
+        <br>
+        <label>Text Field</label>
+        <textarea name="area" cols="20" rows="4">Go nuts...</textarea>
+        <br>
+        <label>Radio</label>
+       
+            <input type="radio" name="choice" value="this" checked="checked" />This
+            <input type="radio" name="choice" value="that" />That
+            <input type="radio" name="choice" value="theOther" />The Other
+        <br>
+        <label>Checkbox</label>
+        
+            <input type="checkbox" name="option" value="thisOne" />This One
+            <input type="checkbox" name="option" value="thatOne" />That One
+            <input type="checkbox" name="option" value="theOtherOne" />The Other One
+        <br>
+        <label>Dropdown List</label>
+        <select name="choices">
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+        </select>
+    </fieldset>
+
+    <h2>That's all for now!</h2>
+    <a href="https://nommington.github.io/Rebirth/01-welcome.html">Prev</a>
+
+</body>
+
+</html>
