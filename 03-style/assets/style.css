@@ -42,4 +42,10 @@ header {
     margin: auto;
     background-color: red;
     float: left;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wrapper {
+    background-color: black;
 }
