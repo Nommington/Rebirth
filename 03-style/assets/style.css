@@ -39,7 +39,8 @@ header {
 
 #fedUp {
     width: 100%;
-    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: red;
     float: left;
     font-weight: bold;
@@ -47,5 +48,89 @@ header {
 }
 
 #wrapper {
-    background-color: black;
+    left: 20%;
+    position: relative;
+    float: left;
+    height: 420px;
+    width: 680px;
+    align-content: center;
+}
+
+#red {
+    z-index: 1;
+    position: absolute;    
+    height: 420px;
+    width: 680px;
+    background-color: red;
+}
+
+#orange {
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+    position: absolute;
+    height: 420px;
+    width: 680px;
+    background-color: orange;
+}
+
+#yellow {
+    top: 60px;
+    left: 60px;
+    z-index: 3;
+    position: absolute;
+    height: 420px;
+    width: 680px;
+    background-color: yellow;
+}
+
+#green {
+    top: 90px;
+    left: 90px;
+    z-index: 4;
+    position: absolute;
+    height: 420px;
+    width: 680px;
+    background-color: green;
+}
+
+#blue {
+    top: 120px;
+    left: 120px;
+    z-index: 5;
+    position: absolute;
+    height: 420px;
+    width: 680px;
+    background-color: blue;
+}
+
+#violet {
+    top: 150px;
+    left: 150px;
+    z-index: 6;
+    position: absolute;
+    height: 420px;
+    width: 680px;
+    background-color: purple;
+}
+
+#dash {
+    top: 180px;
+    left: 180px;
+    z-index: 7;
+    position: absolute;
+    height: 420px;
+    width: 680px;
+    
+}
+
+#success {
+    margin-top: 195px;
+    clear: both;
+    float: left;
+}
+
+footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
