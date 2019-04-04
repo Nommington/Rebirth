@@ -10,6 +10,10 @@ var subt = [
 ];
 
 function openCard() {
-    var page = -1;
-    
+    var page = 0;
+    var caption = subt[page];
+    console.log(caption);
+    page++;
 }
+
+document.getElementById("go").onclick = openCard();
