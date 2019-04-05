@@ -8,12 +8,12 @@ var subt = [
     "to the day we made a family",
     "to the day our family was complete",
 ];
-
-function openCard() {
-    var page = 0;
+var page = 0;
+document.getElementById("go").onclick = function openCard() {
+    
     var caption = subt[page];
     console.log(caption);
     page++;
-}
+};
 
-document.getElementById("go").onclick = openCard();
+//openCard();
