@@ -14,6 +14,9 @@ document.getElementById("go").onclick = function openCard() {
     var caption = subt[page];
     console.log(caption);
     page++;
+    if (page === 1) {
+        document.getElementById("go").innerHTML = "Guess what ELSE?";
+    }
 };
 
 //openCard();
