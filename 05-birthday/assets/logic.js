@@ -12,6 +12,7 @@ var page = 0;
 document.getElementById("go").onclick = function openCard() {
     
     var caption = subt[page];
+    var img = pics[page];
     console.log(caption);
     page++;
     if (page === 1) {
@@ -19,4 +20,3 @@ document.getElementById("go").onclick = function openCard() {
     }
 };
 
-//openCard();
