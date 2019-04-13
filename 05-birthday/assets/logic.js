@@ -26,7 +26,7 @@ var subt = [
     "to the day our family was complete",
     "from childhood,",
     "to thirty,",
-    "to...",
+    "to umm...",
     "ya know...",
     "...whichever birthday this one is",
     "I love you for being goofy,",
