@@ -12,12 +12,15 @@ var pics = [
     "assets/images/squad2.jpg",
     "assets/images/all.jpg",
     "assets/images/squad.jpg",
+    "assets/images/funny.jpg",
     "assets/images/ram.jpg",
+    "assets/images/hot.jpg",
+    "assets/images/family.jpg",
     "assets/images/hbd.gif"
 ];
 var subt = [
     "Today is the day you were born",
-    "(Well, actually a couple days ago)",
+    "(Well, actually a few days ago)",
     "And from the day we met",
     "to our first date",
     "to our first dance",
@@ -30,8 +33,10 @@ var subt = [
     "ya know...",
     "...whichever birthday this one is",
     "I love you for being goofy,",
+    "for being strong,",
     "for being HOT,",
-    "and for being mine."
+    "and for being my family.",
+    "HAPPY BIRTHDAY!"
 ];
 var page = 0;
 var song = document.getElementById("hbd");
@@ -51,6 +56,9 @@ document.getElementById("go").onclick = function openCard() {
         document.getElementById("go").style.cssFloat = "left";
         //play song
         song.play();
+    }
+    if (page === 18) {
+        document.getElementById("go").style.display = "none";
     }
 };
 
